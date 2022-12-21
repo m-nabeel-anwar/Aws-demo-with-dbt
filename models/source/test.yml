@@ -1,0 +1,7 @@
+version: 2
+models:
+  - name: src_natioon
+    columns: 
+      - name: n_nationkey
+        tests:
+          - not_null
