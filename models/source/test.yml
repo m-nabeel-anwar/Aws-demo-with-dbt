@@ -5,3 +5,9 @@ models:
       - name: n_nationkey
         tests:
           - not_null
+  - name: src_region
+    columns:
+    - name: r_regionkey
+      tests:
+        - not_null
+      description: checking not null value in region key

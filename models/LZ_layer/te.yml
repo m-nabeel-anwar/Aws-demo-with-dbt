@@ -1,0 +1,10 @@
+version: 2
+models:
+  - name: lz_cus_order_summery
+    columns:
+    - name: id
+      tests:
+        - not_null
+    - name : totalprice
+      tests:
+      - generic_order_greater_100
