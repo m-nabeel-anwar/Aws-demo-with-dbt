@@ -1,6 +1,6 @@
  {{
     config(
-        materialized='table'
+        schema='edw_dev_testing_dbt',materialized='table'
     )
 }}
 
