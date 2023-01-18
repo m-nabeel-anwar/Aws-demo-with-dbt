@@ -1,6 +1,8 @@
 version: 2
 models:
+
   - name: src_nation
+
     columns: 
       - name: n_nationkey
         tests:
