@@ -1,9 +1,8 @@
  {{
     config(
-        schema='edw_dev_testing_dbt',materialized='table'
+        schema='edw_dev_testing_dbt',materialized='table',sort='nation_id',dist='even'
     )
 }}
-
 with nation as(
 select * from {{ ref('src_nation') }}
 ),
